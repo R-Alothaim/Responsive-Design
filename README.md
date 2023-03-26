@@ -35,5 +35,6 @@ Scrimba includes this by default, behind the scenes. You'll want to leave this i
 <hr>
 This is my deployment link for this repository https://github.com/Leen-odeh12/Responsive-Design
 <h2>Result is out :</h2>
+https://leen-odeh12.github.io/Responsive-Design/
 <br> <br> 
 <img width="285" alt="Capture" src="https://user-images.githubusercontent.com/123558998/224170093-cbdbb15a-08cf-46aa-9b88-614ed050ad3e.PNG">
