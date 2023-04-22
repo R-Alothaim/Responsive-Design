@@ -31,6 +31,26 @@
 
     <div class="container container-flex">
       <main role="main">
+        <div class="article-recent pop-up">
+          <article class="article-recent">
+            <div class="article-recent-main">
+              <h2 class="article-title">Keeping cooking simple</h2>
+              <p class="article-body">
+                Food is a very important part of everyone's life. If you want to
+                be healthy, you have to eat healthy. One of the easiest ways to do
+                that is to keep your cooking nice and simple.
+              </p>
+              <a href="#" class="article-read-more">CONTINUE READING</a>
+            
+            <div class="article-recent-secondary">
+              <img src="img/food.jpg" alt="" class="article-image" />
+              <p class="article-info">July 19, 2019 | 3 comments</p>
+            </div>
+          </div>
+          </article>
+  
+        </div>
+        
         <img src="img/about-me.jpg" class="image-full" />
         <h2>My name is John and living the simple life saved my life</h2>
 
@@ -77,7 +97,7 @@
         <div class="sidebar-widget">
           <h2 class="widget-title">RECENT POSTS</h2>
           <div class="widget-recent-post">
-            <h3 class="widget-recent-post-title">Keeping cooking simple</h3>
+            <h3 class="widget-recent-post-title"><a class="click-1" style="cursor: pointer;">Keeping cooking simple</a></h3>
             <img
               src="img/food.jpg"
               alt="two dumplings on a wood plate with chopsticks"
@@ -109,4 +129,11 @@
       <p>Copyright 2019</p>
     </footer>
   </body>
+  <script>
+    const click1 = document.querySelector(".click-1");
+    const popUp = document.querySelector(".pop-up");
+    click1.addEventListener("click", function () {
+       popUp.style.display === "block" ? popUp.style.display = "none" : popUp.style.display = "block";
+    });
+  </script>
 </html>
