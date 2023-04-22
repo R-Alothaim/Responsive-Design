@@ -272,8 +272,10 @@ body {
     position: absolute;
     left: 0;
     transition: height 0.2s cubic-bezier(0.175, 0.150, 0.32, 0.175);
-    overflow: hidden;  
+    
+    
    }
    .pop-up.open{
     display:block;
+
    }

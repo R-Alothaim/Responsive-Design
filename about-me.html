@@ -133,7 +133,9 @@
     const click1 = document.querySelector(".click-1");
     const popUp = document.querySelector(".pop-up");
     click1.addEventListener("click", function () {
-       popUp.style.display === "block" ? popUp.style.display = "none" : popUp.style.display = "block";
+      popUp.classList.toggle('open')
+    const isOpen = popUp.classList.contains('open')
+
     });
   </script>
 </html>
